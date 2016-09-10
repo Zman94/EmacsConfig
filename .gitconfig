@@ -1,0 +1,29 @@
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[user]
+	name = Zman94
+	email = zgleason94@gmail.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+[core]
+	editor = emacs
+	deitor = emacs
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
+[http]
+[https]
+[url "https://"]
+	insteadOf = git://
+[push]
+	default = matching
+[gitreview]
+	scheme = htps
+	port = 443
+	username = gerritusername

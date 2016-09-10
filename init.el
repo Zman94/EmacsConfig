@@ -28,7 +28,7 @@
 (setq web-mode-enable-auto-pairing t)
 (setq web-mode-enable-auto-closing nil)
 
-(add-to-list 'load-path "/Users/Zach/.emacs.d/plugs-el/")
+(add-to-list 'load-path "~/.emacs.d/plugs-el/")
 
 ;(require 'autopair)
 ;(autopair-global-mode)
@@ -43,9 +43,6 @@
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
-(add-to-list 'load-path "/Users/Zach/.emacs.d/plugs-el/evil")
-(require 'evil)
-(evil-mode 1)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 

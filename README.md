@@ -25,4 +25,6 @@ sudo mv ~/.emacs.d/.bashrc ~/
 Run
 ```
 sudo mv ~/.emacs.d/.gitconfig ~/
+curl -o ~/.git-prompt.sh       -OL cdn.learnenough.com/git-prompt.sh
+curl -o ~/.git-completion.bash -OL cdn.learnenough.com/git-completion.bash
 ```
